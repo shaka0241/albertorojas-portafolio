@@ -1,8 +1,8 @@
 ---
 title: Proyecto DaaS (Delivery as a Service) – Acid Labs - Cencosud
-publishDate: 2020-03-04 00:00:00
+publishDate: 2020-09-15 00:00:00
 img: /assets/stock-5.jpg
-img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
+img_alt: Cencosud Last Mile Delivery
 description: |
   Desarrollé e implementé una solución de Delivery as a Service para la cadena de supermercados Cencosud, lo que permitió mejorar la logística de última milla.
 tags:
