@@ -16,7 +16,7 @@ tags:
 
 **Tecnologías Backend:** Integración de servicios API REST, pasarela de pago Webpay
 
-**Herramientas de gestión:** Jira, Git
+**Herramientas de gestión:** Jira, Notion
 
 ### Logros:
 
