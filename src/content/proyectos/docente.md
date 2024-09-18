@@ -6,9 +6,10 @@ img_alt: Cencosud Last Mile Delivery
 description: |
   A lo largo de más de 4 años como docente en el curso "Desarrollo de Aplicaciones Front End Trainee V2.0", he formado a más de 300 estudiantes en tecnologías esenciales del desarrollo web moderno.
 tags:
-  - Full Stack
-  - Retail
-  - SaaS
+  - Front End
+  - Docencia
+  - Javascript
+  - Vue.js
 ---
 
 ### Docente y Mentor

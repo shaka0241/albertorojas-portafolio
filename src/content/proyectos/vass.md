@@ -6,8 +6,8 @@ img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
   Durante mi tiempo en VASS Chile, participé en el desarrollo de una plataforma de ventas en línea para las tiendas de los malls Parque Arauco, facilitando la compra de productos y servicios a través de una experiencia de usuario optimizada y un diseño responsive.
 tags:
-  - Design
-  - Branding
+  - Project Management
+  - Full Stack
 ---
 
 ### Desarrollador Front-End

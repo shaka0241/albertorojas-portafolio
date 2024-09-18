@@ -9,6 +9,7 @@ tags:
   - Full Stack
   - Retail
   - SaaS
+  - Project Management
 ---
 
 ### Desarrollador Full Stack y Líder de Proyecto

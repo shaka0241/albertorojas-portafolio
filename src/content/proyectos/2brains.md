@@ -9,6 +9,8 @@ tags:
   - Front End
   - Data Science
   - Site Reliability
+  - Backend
+  - Project Management
 ---
 
 ### Desarrollador Front-End
