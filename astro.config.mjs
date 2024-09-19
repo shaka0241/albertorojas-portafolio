@@ -4,12 +4,7 @@ import partytown from '@astrojs/partytown';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://albertorojas.netlify.app',
     integrations: [
-        partytown({
-            config: {
-                forward: ['dataLayer.push']
-            }
-        }),
-    ]
+        partytown({ config: { forward: ['dataLayer.push'] } }),
+      ]
 });
