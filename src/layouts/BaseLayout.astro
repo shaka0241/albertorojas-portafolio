@@ -17,11 +17,13 @@ const { title, description } = Astro.props;
 
 <html lang="en">
 	<head>
-		<script
+		<script defer data-domain="albertorojas.netlify.app" src="../pages/js/script" />
+		<script defer data-domain="albertorojas.netlify.app" data-api="/r2d2/event" src="../pages/js/script" />
+		<!-- <script
 		type="text/partytown"
 		async
 		data-domain="albertorojas.netlify.app"
-		src="https://plausible.io/js/script.hash.outbound-links.pageview-props.tagged-events.js"></script>
+		src="https://plausible.io/js/script.hash.outbound-links.pageview-props.tagged-events.js"></script> -->
 		<MainHead title={title} description={description} />
 	</head>
 	<body>
