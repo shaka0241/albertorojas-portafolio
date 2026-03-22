@@ -6,6 +6,7 @@
 import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
+import { ClientRouter } from 'astro:transitions';
 
 interface Props {
 	title?: string | undefined;
@@ -22,6 +23,7 @@ const { title, description } = Astro.props;
 			heap.load("682162307");
 		  </script>
 		<MainHead title={title} description={description} />
+		<ClientRouter />
 	</head>
 	<body>
 		<div class="stack backgrounds">
