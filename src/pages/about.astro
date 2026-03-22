@@ -1,4 +1,5 @@
 ---
+import Pill from "../components/Pill.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 import ContactCTA from "../components/ContactCTA.astro";
@@ -26,176 +27,188 @@ import Hero from "../components/Hero.astro";
       <section>
         <h2 class="section-title">Experiencia Laboral</h2>
 
-        <div class="content">
+        <div class="content card-content">
           <p class="content-title">Profesor (Desarrollo Full Stack)</p>
           <p class="content-subtitle">CEI: Centro de Estudios de Innovación</p>
           <p class="content-date">ene. 2026 - actualidad</p>
-          <p>
-            ● Diseño e impartición de asignaturas y módulos formativos en
+          <ul class="experience-list">
+            <li>
+              Diseño e impartición de asignaturas y módulos formativos en
             Desarrollo Web Full Stack, abarcando frontend, backend y bases de
             datos, con enfoque en tecnologías web modernas.
-          </p>
-          <p>
-            ● Docencia en programación JavaScript moderna (ES6+), arquitectura
+            </li>
+            <li>
+              Docencia en programación JavaScript moderna (ES6+), arquitectura
             de aplicaciones web, desarrollo con frameworks actuales y buenas
             prácticas de ingeniería de software.
-          </p>
-          <p>
-            ● Formación en desarrollo frontend basado en componentes, incluyendo
+            </li>
+            <li>
+              Formación en desarrollo frontend basado en componentes, incluyendo
             principios de diseño, rendimiento, reutilización de código y
             mantenibilidad.
-          </p>
-          <p>
-            ● Introducción a metodologías profesionales: control de versiones
+            </li>
+            <li>
+              Introducción a metodologías profesionales: control de versiones
             (Git), flujos colaborativos, integración y despliegue continuo
             (CI/CD).
-          </p>
-          <p>
-            ● Acompañamiento académico y mentoring del alumnado, fomentando el
+            </li>
+            <li>
+              Acompañamiento académico y mentoring del alumnado, fomentando el
             aprendizaje autónomo e integrando herramientas de apoyo basadas en
             IA.
-          </p>
+            </li>
+          </ul>
           <p>
             <b>Stack Tecnológico:</b> JavaScript (ES6+), Git, CI/CD, frameworks frontend
             modernos, bases de datos, arquitectura web.
           </p>
         </div>
 
-        <div class="content">
+        <div class="content card-content">
           <p class="content-title">Associate Software Engineer</p>
           <p class="content-subtitle">Cognizant</p>
           <p class="content-date">ene. 2025 - actualidad</p>
-          <p>
-            ● Desarrollo frontend con Vue.js y React, integrado a servicios y
+          <ul class="experience-list">
+            <li>
+              Desarrollo frontend con Vue.js y React, integrado a servicios y
             APIs backend.
-          </p>
-          <p>
-            ● Soporte técnico transversal en repositorios Vue, React, Node.js,
+            </li>
+            <li>
+              Soporte técnico transversal en repositorios Vue, React, Node.js,
             .NET, Python y Databricks.
-          </p>
-          <p>
-            ● Resolución de incidencias en CI/CD, pipelines, despliegues y
+            </li>
+            <li>
+              Resolución de incidencias en CI/CD, pipelines, despliegues y
             entornos Azure / Azure DevOps.
-          </p>
-          <p>
-            ● Participación en procesos de despliegue y operación de
+            </li>
+            <li>
+              Participación en procesos de despliegue y operación de
             aplicaciones, utilizando Docker para estandarización de entornos y
             portabilidad.
-          </p>
-          <p>
-            ● Creación y mantenimiento de librerías internas, junto con asesoría
+            </li>
+            <li>
+              Creación y mantenimiento de librerías internas, junto con asesoría
             en estandarización de herramientas y pipelines.
-          </p>
-          <p>
-            ● Participación en charlas técnicas internas para compartir buenas
+            </li>
+            <li>
+              Participación en charlas técnicas internas para compartir buenas
             prácticas y mejoras de plataforma.
-          </p>
+            </li>
+          </ul>
           <p>
             <b>Stack Tecnológico:</b> Vue.js, React, Node.js, .NET, Python, Databricks,
             Docker, Azure, Azure DevOps.
           </p>
         </div>
 
-        <div class="content">
+        <div class="content card-content">
           <p class="content-title">Desarrollador Full Stack</p>
           <p class="content-subtitle">2Brains</p>
           <p class="content-date">jul. 2024 - ene. 2025</p>
-          <p>
-            ● Desarrollé componentes reutilizables en Angular con TypeScript,
+          <ul class="experience-list">
+            <li>
+              Desarrollé componentes reutilizables en Angular con TypeScript,
             siguiendo principios de un Design System y aplicando tokens de
             diseño para mantener consistencia visual y escalabilidad.
-          </p>
-          <p>
-            ● Integré múltiples APIs para flujos médicos, administrativos y
+            </li>
+            <li>
+              Integré múltiples APIs para flujos médicos, administrativos y
             bancarios, desplegados sobre Google Cloud Platform (GCP),
             garantizando accesibilidad, seguridad y rendimiento.
-          </p>
-          <p>
-            ● Construí interfaces modulares, manteniendo la coherencia con el
+            </li>
+            <li>
+              Construí interfaces modulares, manteniendo la coherencia con el
             sistema de diseño definido en Figma y validado mediante Storybook.
-          </p>
-          <p>
-            ● Participé activamente en procesos ágiles (Scrum), con entregas
+            </li>
+            <li>
+              Participé activamente en procesos ágiles (Scrum), con entregas
             iterativas y despliegue continuo de funcionalidades.
-          </p>
-          <p>
-            ● Propuse y apliqué flujos de trabajo basados en Gitflow para
+            </li>
+            <li>
+              Propuse y apliqué flujos de trabajo basados en Gitflow para
             asegurar trazabilidad y colaboración efectiva entre frontend y
             diseño.
-          </p>
+            </li>
+          </ul>
           <p>
             <b>Stack Tecnológico:</b> Angular, TypeScript, Storybook, GCP, Scrum,
             Gitflow.
           </p>
         </div>
 
-        <div class="content">
+        <div class="content card-content">
           <p class="content-title">
             Docente de Desarrollo de Aplicaciones Full Stack / Mentor
           </p>
           <p class="content-subtitle">Desafío Latam</p>
           <p class="content-date">ago. 2020 - dic. 2024</p>
-          <p>
-            ● Dicté clases magistrales formativas de HTML, CSS, Javascript,
+          <ul class="experience-list">
+            <li>
+              Dicté clases magistrales formativas de HTML, CSS, Javascript,
             Bootstrap y Vue JS para nuevas generaciones de desarrolladores.
-          </p>
-          <p>
-            ● Realicé mentoring especializado a egresados del Bootcamp de
+            </li>
+            <li>
+              Realicé mentoring especializado a egresados del Bootcamp de
             Desarrollo Front-End para asegurar su inserción laboral con buenas
             prácticas.
-          </p>
+            </li>
+          </ul>
           <p>
             <b>Stack Tecnológico:</b> HTML, CSS, Javascript, Bootstrap, Vue JS.
           </p>
         </div>
 
-        <div class="content">
+        <div class="content card-content">
           <p class="content-title">Desarrollador Full Stack en Cencosud</p>
           <p class="content-subtitle">Acid Labs</p>
           <p class="content-date">oct. 2022 - may. 2024</p>
-          <p>
-            ● Desarrollé aplicaciones web DaaS (Delivery as a Service) mediante
+          <ul class="experience-list">
+            <li>
+              Desarrollé aplicaciones web DaaS (Delivery as a Service) mediante
             una arquitectura basada en Micro Frontends utilizando Angular y
             React para garantizar modularidad y rendimiento.
-          </p>
-          <p>
-            ● Diseñé y desarrollé componentes reutilizables para módulos clave
+            </li>
+            <li>
+              Diseñé y desarrollé componentes reutilizables para módulos clave
             como Despacho, Asignación y Transporte (DaaS Host), así como Estado
             de Despacho (Alert Host).
-          </p>
-          <p>
-            ● Implementé la componentización a través de librerías internas y
+            </li>
+            <li>
+              Implementé la componentización a través de librerías internas y
             documenté el comportamiento visual en Storybook para alinear
             componentes con Figma y su Design System integrado.
-          </p>
-          <p>
-            ● Impulsé estandarización con tokens de diseño y lideré pruebas
+            </li>
+            <li>
+              Impulsé estandarización con tokens de diseño y lideré pruebas
             manuales y automatizadas mejorando la estabilidad del producto.
-          </p>
+            </li>
+          </ul>
           <p>
             <b>Stack Tecnológico:</b> ReactJs, Angular, Storybook, Micro Frontends,
             React Query, Redux, NodeJs, AWS, PostgreSQL, Jest, Docker, Kubernetes.
           </p>
         </div>
 
-        <div class="content">
+        <div class="content card-content">
           <p class="content-title">Jefe de Desarrollos y Métricas</p>
           <p class="content-subtitle">Smartjob</p>
           <p class="content-date">jun. 2022 - oct. 2022</p>
-          <p>
-            ● Lideré la planificación, implementación y administración de
+          <ul class="experience-list">
+            <li>
+              Lideré la planificación, implementación y administración de
             proyectos estratégicos de desarrollo en áreas de Marketing,
             Innovación e IT estructurando y modernizando las plataformas.
-          </p>
-          <p>
-            ● Gestioné eficazmente un equipo de 10 personas manteniendo el
+            </li>
+            <li>
+              Gestioné eficazmente un equipo de 10 personas manteniendo el
             alineamiento con metas organizacionales mediante metodologías ágiles
             (Scrum/Kanban).
-          </p>
-          <p>
-            ● Integré píxeles de LinkedIn y Google Ads con Google Tag Manager y
+            </li>
+            <li>
+              Integré píxeles de LinkedIn y Google Ads con Google Tag Manager y
             construí reportes de métricas en Google Data Studio.
-          </p>
+            </li>
+          </ul>
           <p>
             <b>Stack Tecnológico:</b> ReactJs, Styled Component, Unit Test, PostgreSQL,
             GCP, GitHub, Looker, GTM, Google Optimize, Google Analytics, Gestión de
@@ -203,42 +216,46 @@ import Hero from "../components/Hero.astro";
           </p>
         </div>
 
-        <div class="content">
+        <div class="content card-content">
           <p class="content-title">Desarrollador de front-end</p>
           <p class="content-subtitle">2Brains</p>
           <p class="content-date">oct. 2021 - jun. 2022</p>
-          <p>
-            ● Rendericé y personalicé componentes dinámicos en Modyo aplicando
+          <ul class="experience-list">
+            <li>
+              Rendericé y personalicé componentes dinámicos en Modyo aplicando
             segmentación modular para escalar y facilitar mantenimientos.
-          </p>
-          <p>
-            ● Integré consultas hacia APIs RESTful optimizando flujos de datos y
+            </li>
+            <li>
+              Integré consultas hacia APIs RESTful optimizando flujos de datos y
             elaboré prototipos funcionales colaborando estricta y activamente
             con diseño.
-          </p>
-          <p>
-            ● Implementé estrategias sólidas y mejores prácticas incluyendo
+            </li>
+            <li>
+              Implementé estrategias sólidas y mejores prácticas incluyendo
             Gitflow y uso de tokens de diseño.
-          </p>
+            </li>
+          </ul>
           <p>
             <b>Stack Tecnológico:</b> Modyo, Bootstrap, Sass, React JS, VueJs, Vue
             Press y Google Analytics.
           </p>
         </div>
 
-        <div class="content">
+        <div class="content card-content">
           <p class="content-title">Desarrollador de front-end</p>
           <p class="content-subtitle">VASS</p>
           <p class="content-date">feb. 2020 - oct. 2021</p>
-          <p>
-            ● Realicé soporte continuo a proyectos Front, maquetado de sitios
+          <ul class="experience-list">
+            <li>
+              Realicé soporte continuo a proyectos Front, maquetado de sitios
             multiplataforma web responsive y atención de incidencias mediante
             Jira.
-          </p>
-          <p>
-            ● Desarrollé la creación de componentes en VueJS y ReactJS; integré
+            </li>
+            <li>
+              Desarrollé la creación de componentes en VueJS y ReactJS; integré
             consumos de servicios API Rest e incorporé pasarela de pagos Webpay.
-          </p>
+            </li>
+          </ul>
           <p>● Certificación oficial: Modyo Front End.</p>
           <p>
             <b>Stack Tecnológico:</b> Modyo, Bootstrap, Sass, Vanilla JS, React JS,
@@ -246,62 +263,68 @@ import Hero from "../components/Hero.astro";
           </p>
         </div>
 
-        <div class="content">
+        <div class="content card-content">
           <p class="content-title">Ingeniero de software SW</p>
           <p class="content-subtitle">Akzio</p>
           <p class="content-date">oct. 2019 - feb. 2020</p>
-          <p>
-            ● Realicé el análisis estructural de sistemas tecnológicos
+          <ul class="experience-list">
+            <li>
+              Realicé el análisis estructural de sistemas tecnológicos
             existentes.
-          </p>
-          <p>
-            ● Desarrollé y aporté componentes lógicos al Design System general
+            </li>
+            <li>
+              Desarrollé y aporté componentes lógicos al Design System general
             mediante maquetación y renderización reactiva bajo arquitectura
             Gitflow.
-          </p>
-          <p>
-            ● Mantuve la escalabilidad conectando requerimientos con APIs en
+            </li>
+            <li>
+              Mantuve la escalabilidad conectando requerimientos con APIs en
             contextos de metodologías ágiles (Azure).
-          </p>
+            </li>
+          </ul>
           <p><b>Stack Tecnológico:</b> React, Redux, Material UI, Azure.</p>
         </div>
 
-        <div class="content">
+        <div class="content card-content">
           <p class="content-title">Desarrollador de software</p>
           <p class="content-subtitle">50Devs</p>
           <p class="content-date">dic. 2018 - oct. 2019</p>
-          <p>
-            ● Prototipé e implementé productos basándome estrictamente en
+          <ul class="experience-list">
+            <li>
+              Prototipé e implementé productos basándome estrictamente en
             wireframes.
-          </p>
-          <p>
-            ● Diseñé y apliqué diagramas lógicos de flujo y casos de usos
+            </li>
+            <li>
+              Diseñé y apliqué diagramas lógicos de flujo y casos de usos
             vitales a cada proyecto, integrando configuraciones de Amazon Web
             Services (AWS).
-          </p>
+            </li>
+          </ul>
           <p>
             <b>Stack Tecnológico:</b> ReactJs, Redux, VueJs, Vuex, Javascript, Kotlin,
             AWS, Gitflow.
           </p>
         </div>
 
-        <div class="content">
+        <div class="content card-content">
           <p class="content-title">Soporte Técnico // Analista de Sistemas</p>
           <p class="content-subtitle">
             Ministerio del Poder Popular de Petróleo
           </p>
           <p class="content-date">ago. 2013 - abr. 2018</p>
-          <p>
-            ● Resolví incidencias proporcionando soporte técnico a red local de
+          <ul class="experience-list">
+            <li>
+              Resolví incidencias proporcionando soporte técnico a red local de
             colaboradores DRM y oficinas foráneas junto al personal de campo.
-          </p>
-          <p>
-            ● Elaboré informes metódicos para detectar brechas tecnológicas.
-          </p>
-          <p>
-            ● Desarrollé sistemas de automatización internos para Direcciones
+            </li>
+            <li>
+              Elaboré informes metódicos para detectar brechas tecnológicas.
+            </li>
+            <li>
+              Desarrollé sistemas de automatización internos para Direcciones
             Regionales velando por las mejores prácticas (TICs).
-          </p>
+            </li>
+          </ul>
         </div>
       </section>
       <section>
@@ -320,15 +343,15 @@ import Hero from "../components/Hero.astro";
       </section>
       <section>
         <h2 class="section-title">Skills</h2>
-        <div class="content">
-          <p>Desarrollo Front-End: Vue.js - React.js - Angular</p>
-          <p>Implementación de Micro Frontends</p>
-          <p>Gestión de proyectos con metodologías ágiles (Scrum/Kanban)</p>
-          <p>Despliegue en plataformas cloud: AWS, GCP</p>
-          <p>Mentoría y docencia en tecnologías web</p>
-          <p>Consumo e integración de APIs</p>
-          <p>Pruebas unitarias y TDD</p>
-          <p>Diseño responsive y manejo avanzado de CSS</p>
+        <div class="content skills-cloud">
+            <Pill>Desarrollo Front-End: Vue.js - React.js - Angular</Pill>
+            <Pill>Implementación de Micro Frontends</Pill>
+            <Pill>Gestión de proyectos con metodologías ágiles (Scrum/Kanban)</Pill>
+            <Pill>Despliegue en plataformas cloud: AWS, GCP</Pill>
+            <Pill>Mentoría y docencia en tecnologías web</Pill>
+            <Pill>Consumo e integración de APIs</Pill>
+            <Pill>Pruebas unitarias y TDD</Pill>
+            <Pill>Diseño responsive y manejo avanzado de CSS</Pill>
         </div>
       </section>
     </main>
@@ -409,4 +432,29 @@ import Hero from "../components/Hero.astro";
       font-size: var(--text-lg);
     }
   }
+
+  .card-content {
+    background-color: var(--gray-999_40);
+    border: 1px solid var(--gray-800);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .experience-list {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style-type: disc;
+  }
+
+  .skills-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
 </style>

@@ -153,7 +153,11 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 <style>
 	nav {
 		z-index: 9999;
-		position: relative;
+		position: sticky;
+		top: 0;
+		backdrop-filter: blur(16px);
+		-webkit-backdrop-filter: blur(16px);
+		background-color: hsla(var(--gray-999-basis), 0.85);
 		font-family: var(--font-brand);
 		font-weight: 500;
 		margin-bottom: 3.5rem;

@@ -235,7 +235,7 @@ const projects = (await getCollection('proyectos'))
 	.mention-card {
 		display: flex;
 		flex-direction: column;
-		height: 7rem;
+		height: 8rem;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
@@ -244,20 +244,29 @@ const projects = (await getCollection('proyectos'))
 		color: var(--gray-300);
 		background: var(--gradient-subtle);
 		box-shadow: var(--shadow-sm);
+		padding: 1rem;
 	}
 
-	.mention-card  p:first-child {
-			font-weight: bold;
-			font-size: 1rem;
-		}
+	.mention-card p:first-child {
+		font-weight: 600;
+		font-size: var(--text-lg);
+		color: var(--accent-regular);
+		font-family: var(--font-brand);
+	}
+	
+	.mention-card p:last-child {
+		font-size: var(--text-sm);
+		color: var(--gray-400);
+		font-style: italic;
+		margin-top: 0.5rem;
+	}
 
 	@media (min-width: 50em) {
 		.mention-card {
-			border-radius: 1.5rem;
 			height: 9.5rem;
 		}
-		.mention-card  p:first-child {
-			font-size: 2rem;
+		.mention-card p:first-child {
+			font-size: var(--text-2xl);
 		}
 	}
 </style>

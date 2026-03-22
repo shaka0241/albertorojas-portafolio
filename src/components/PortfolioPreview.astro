@@ -34,6 +34,10 @@ const { data, id: slug } = Astro.props.project;
 		box-shadow: var(--shadow-md);
 	}
 
+	.card:hover img {
+		transform: scale(1.05);
+	}
+
 	.title {
 		grid-area: 1 / 1 / 2 / 2;
 		z-index: 1;
@@ -49,6 +53,7 @@ const { data, id: slug } = Astro.props.project;
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+		transition: transform var(--theme-transition);
 	}
 
 	@media (min-width: 50em) {
