@@ -71,7 +71,6 @@ import Icon from './Icon.astro';
 	class ThemeToggle extends HTMLElement {
 		constructor() {
 			super();
-
 			const button = this.querySelector('button')!;
 
 			/** Set the theme to dark/light mode. */
@@ -81,10 +80,21 @@ import Icon from './Icon.astro';
 			};
 
 			// Toggle the theme when a user clicks the button.
-			button.addEventListener('click', () => setTheme(!this.isDark()));
+			button.addEventListener('click', () => {
+				const setDark = !this.isDark();
+				setTheme(setDark);
+				if (typeof localStorage !== 'undefined') {
+					localStorage.setItem('theme', setDark ? 'dark' : 'light');
+				}
+			});
 
 			// Initialize button state to reflect current theme.
-			setTheme(this.isDark());
+			// Force reading from localStorage to survive Astro view transitions 
+			let initialTheme = this.isDark();
+			if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+				initialTheme = localStorage.getItem('theme') === 'dark';
+			}
+			setTheme(initialTheme);
 		}
 
 		isDark() {
