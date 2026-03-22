@@ -1,12 +1,12 @@
 ---
-title: Docente de Desarrollo Front End – Desafío Latam
-publishDate: 2020-09-14 00:00:00
+title: Docente de Desarrollo Full Stack – Desafío Latam
+publishDate: 2020-08-01 00:00:00
 img: /assets/docente.jpeg
 img_alt: Cencosud Last Mile Delivery
 description: |
   A lo largo de más de 4 años como docente en el curso "Desarrollo de Aplicaciones Front End Trainee V2.0", he formado a más de 300 estudiantes en tecnologías esenciales del desarrollo web moderno.
 tags:
-  - Front End
+  - Full Stack
   - Docencia
   - Javascript
   - Vue.js

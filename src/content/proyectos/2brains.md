@@ -1,12 +1,12 @@
 ---
 title: Plataforma de Seguros – 2Brains para Banco de Chile
-publishDate: 2019-12-01 00:00:00
+publishDate: 2021-10-01 00:00:00
 img: /assets/banco.png
 img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
 description: |
   Desarrollo e integración de landing pages y servicios asociados a los productos de seguros ofrecidos por el Banco de Chile.
 tags:
-  - Front End
+  - Full Stack
   - Data Science
   - Site Reliability
   - Backend

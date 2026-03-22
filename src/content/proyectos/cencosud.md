@@ -1,6 +1,6 @@
 ---
 title: Proyecto DaaS (Delivery as a Service) – Acid Labs - Cencosud
-publishDate: 2020-09-15 00:00:00
+publishDate: 2022-10-01 00:00:00
 img: /assets/stock-5.jpg
 img_alt: Cencosud Last Mile Delivery
 description: |
@@ -16,7 +16,7 @@ tags:
 
 
 
-**Tecnologías Frontend:** ReactJs, Tailwind, CSS Modules, Styled Components
+**Tecnologías Frontend:** ReactJs, Angular, Tailwind, CSS Modules, Styled Components
 
 **Tecnologías Backend:** NodeJs, NestJS, PostgreSQL
 

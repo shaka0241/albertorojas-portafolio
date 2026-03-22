@@ -1,6 +1,6 @@
 ---
 title: Plataforma paginas Malls Parque Arauco – VASS Chile
-publishDate: 2019-10-02 00:00:00
+publishDate: 2020-02-01 00:00:00
 img: /assets/vass.png
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
